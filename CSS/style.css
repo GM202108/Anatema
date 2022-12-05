@@ -1,0 +1,292 @@
+ /* Fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Hind:wght@200&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@1&display=swap');
+ /* Fonts */
+
+ /*Bar de navegación*/
+ .navbar {
+   background-color: #3f0209;
+   width: 100% !important;
+   box-shadow: 0px 2px 79px 19px #3f0209;
+ }
+
+ .navbar-brand{
+  padding-right: 38rem !important;
+ }
+
+ .nav-item {
+   font-family: 'Hind', sans-serif;
+   font-size: 1em !important;
+ }
+
+ .nav-link{
+  font-size: 1.5em !important;
+ }
+
+
+ .nav-item a:hover{
+  color: #892726 !important;
+ }
+
+
+ /*Bar de navegación*/
+
+ /*Para titulos*/
+ .TitulosC {
+  font-family: 'Lobster', cursive;
+  color: #892726;
+}
+
+/*Para titulos con fondos blancos etc*/
+.ContactC {
+  font-family: 'Lobster', cursive;
+  color: #ffffff;
+}
+
+/*Textos X*/
+.TextContact {
+  font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+p {
+  font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+/*Un descache*/
+
+.Bienvenida {
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+  color: #892726;
+}
+
+.dec-bienvenida {
+  margin: 3% 23%;
+  font-size: 1.5em;
+}
+
+
+.icon-facebook-official {
+  color: #892726;
+  font-size: 25px;
+  transition: color 1s;
+}
+
+.icon-facebook-official:hover {
+  color: #161616;
+  font-size: 25px;
+}
+
+.icon-instagram-1 {
+  color: #892726;
+  transition: color 1s;
+  font-size: 25px;
+}
+
+.icon-instagram-1:hover {
+  color: #161616;
+  font-size: 25px;
+}
+
+.icon-youtube-play {
+  color: #892726;
+  transition: color 1s;
+  font-size: 25px;
+}
+
+.icon-youtube-play:hover {
+  color: #161616;
+  font-size: 25px;
+}
+
+
+
+.tiktok {
+  width: 25px;
+  height: auto;
+}
+
+.cls-1 {
+  fill: #892726;
+  transition: fill 1s;
+  width: 25px;
+  height: auto;
+}
+
+.cls-1:hover {
+  fill: #161616;
+  width: 25px;
+  height: auto;
+}
+
+.cls-2 {
+  fill: #fff;
+}
+
+
+
+/* Sombra */
+.style-div {
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+}
+
+.style-div2 {
+  border-radius: 50px;
+  background: #000000;
+  box-shadow: 20px 20px 60px #0000004a, -20px -20px 60px #0000004c;
+}
+
+/* Centrar textos justificados */
+.text-alineacion {
+  text-align: justify;
+}
+
+/*  Separar divs */
+.container-sections {
+  gap: 2rem;
+}
+
+
+.img-fluid {
+  width: 70%;
+}
+
+ /* Carousel */
+
+.carousel{
+  width: 70%;
+  display: block;
+  margin: 4rem auto;
+}
+
+ /* Carousel */
+
+ @media (max-width: 576px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  footer .redes {
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  footer .servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  
+}
+
+
+.code {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.card {
+
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+}
+
+.card .face {
+
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.card .front {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+
+.card .front img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .front h3 {
+
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.card .back {
+  transform: perspective(600px) rotateY(180deg);
+  background: rgb(108, 0, 0);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+
+.card .back .link {
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+
+.card .back .link a {
+  color: #f3f3f3;
+}
+
+.card .back h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.card .back p {
+  letter-spacing: 1px;
+}
+
+.card:hover .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+  transform: perspective(600px) rotateY(360deg);
+}

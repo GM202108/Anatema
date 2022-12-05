@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- imagen portada -->
+  <link rel="icon" href="#" />
+  <!-- estilos -->
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
+  <!-- animaciones -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!--  Libreria -->
+  <link rel="stylesheet" href="./CSS/fontello.css">
+  <script src="./JavaScript/jquery.js"></script>
+  <script src="./JavaScript/jquery.dataTables.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anatema</title>
+</head>
+
+<body>
+  <div class="container-xxl">
+    <nav id="inicio" class="navbar navbar-expand-md">
+      <div class="container-fluid">
+        <!-- icono o nombre -->
+
+        <a class="navbar-brand " href="#">
+          <img src="./Imagenes/anatema_logo.png" style="width: 9rem;" alt="">
+        </a>
+
+        <!-- boton del menu -->
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- elementos del menu colapsable -->
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#submarcas">Submarcas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#integrantes">Integrantes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+          <hr class="d-md-none text-white-50">
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <section>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Imagenes/portada.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <iframe width="940" height="500" src="https://www.youtube.com/embed/Xzy67M7s6_o"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Carousel -->
+
+    <!-- Bienvenida -->
+    <section>
+      <h1 data-aos="fade-down" data-aos-delay="100" class="text-center Bienvenida">Bienvenido a Anatema</h1>
+      <p data-aos="fade-down" data-aos-delay="100" class="dec-bienvenida text_alineacion">Bienvenido a nuestra página,
+        un lugar lleno de fantasía y misterio, ¿lograrás ver 4
+        cómics sobre
+        mitología
+        Japonesa y Alemana sin asustarte?, todo esto mientras adquieres conocimiento y te das cuenta de la importancia
+        de la mitología a nivel internacional.</p>
+    </section>
+    <!-- Bienvenida -->
+    <div ></div>
+    <!-- Comic1 -->
+    <h2 id="submarcas" data-aos="fade-down" data-aos-delay="100" class="text-center p-3 TitulosC">
+      ELEUTHERIA
+    </h2>
+    <div class="d-flex container p-3" data-aos="fade-down" data-aos-delay="100">
+      <div data-aos="fade-down" data-aos-delay="100" class="col-6">
+        <p class="text_alineacion">
+          En este cómic podrás ver una historia llena de sucesos interesantes cerca de un río bastante vistoso debido a
+          los secretos que esconde
+        </p>
+
+        <p class="text_alineacion">
+          Esta sirena te atraerá y quedarás cautivado con su belleza, adentrandote a un mar de conocimiento acerca de la
+          mitología alemana
+        </p>
+
+        <p class="text_alineacion">
+          Se cuenta que, en un principio, Lorelei era una hermosa muchacha que fue traicionada por el hombre que amaba.
+          Tanto era su dolor que se arrojó desde el acantilado, no sin antes posar por última vez sus tristes ojos
+          repletos de lágrimas en el castillo de su amado, situado justo al otro lado del río.
+        </p>
+      </div>
+
+      <div data-aos="fade-down" data-aos-delay="100" class="col-6 d-flex justify-content-center align-items-center">
+        <img class="img-fluid text-center" src="./Imagenes/eleutheria_logo.png" alt="" />
+      </div>
+    </div>
+    <!-- Comic1 Final -->
+
+    <!-- Comic2 -->
+    <h2 data-aos="fade-down" data-aos-delay="100" class="text-center p-3 TitulosC">
+      OKAMI
+    </h2>
+    <div class="d-flex p-3 container" data-aos="fade-down" data-aos-delay="100">
+      <div data-aos="fade-down" data-aos-delay="100" class="col-6 d-flex justify-content-center align-items-center">
+        <img class="img-fluid text-center" src="./Imagenes/LogoOkamiy.png" alt="" />
+      </div>
+
+      <div data-aos="fade-down" data-aos-delay="100" class="col-6 d- parra">
+        <p class="text_alineacion">
+          La leyenda remonta a hechos del período Heian que se popularizaron durante la época Edo. La leyenda dice que
+          hace mucho tiempo había una preciosa pero vanidosa mujer que fue la esposa o la concubina de un samurái.
+        </p>
+
+        <p class="text_alineacion">
+          La bellísima mujer era pretendida por muchos hombres y acostumbraba a engañar a su marido. El samurái sabía de
+          las infidelidades de su esposa o concubina, por lo que un día, en un ataque de celos y furia, le cortó la boca
+          de un lado a otro mientras gritaba: ¿Piensas que eres hermosa?. Otras versiones cuentan que ella se había
+          casado con un samurái muy celoso que la golpeaba mucho.
+        </p>
+
+        <p class="text_alineacion">
+          El samurái, un día, pensando que le estaba engañando, le cortó la boca. La mujer, cansada de los maltratos,
+          huye adentrándose en el bosque y nunca más se supo de ella.
+        </p>
+
+      </div>
+    </div>
+    <!-- Final Comic2 -->
+
+    <!-- Versiones -->
+    <h2 data-aos="fade-down" data-aos-delay="100" class="text-center p-3 TitulosC">
+      VERSIONES
+    </h2>
+    <div class="d-flex container p-3" data-aos="fade-down" data-aos-delay="100">
+      <div data-aos="fade-down" data-aos-delay="100" class="col-6">
+        <p class="text_alineacion">
+          Ten cuidado con lo que pescas, porque es mejor pescar un poco de mitología sobre Japón, que pescar a Nure-Onna
+        </p>
+
+        <p class="text_alineacion">
+          Puede aparecer en cualquier cuerpo de agua, desde un estanque hasta el océano. Su cuerpo está completamente
+          mojado. Esta criatura se puede encontrar en varios puntos de Japón.
+        </p>
+
+        <p class="text_alineacion">
+          En Nuwa, en la prefectura de Ehime, se dice que se puede ver su pelo mojado flotando en la superficie del
+          océano. En el distrito de Uwa, nure onnago no aparece del océano, sino de una maraña de pelos mojados. La nure
+          onnago tiene una sonrisa malvada, y una horrible risa. Se dice que las personas que ríen con ella son
+          atacadas.
+        </p>
+      </div>
+
+      <div data-aos="fade-down" data-aos-delay="100" class="col-6 d-flex justify-content-center align-items-center">
+        <img class="img-fluid text-center" src="./Imagenes/LogoVersiones.png" alt="" />
+      </div>
+    </div>
+    <!-- Versiones Final -->
+
+    <!-- Okami -->
+    <h2 data-aos="fade-down" data-aos-delay="100" class="text-center p-3 TitulosC">
+      OKAMI
+    </h2>
+    <div class="d-flex p-3 container" data-aos="fade-down" data-aos-delay="100">
+      <div data-aos="fade-down" data-aos-delay="100" class="col-6 d-flex justify-content-center align-items-center">
+        <img class="img-fluid text-center" src="./Imagenes/okami2_logo.png" alt="" />
+      </div>
+
+      <div data-aos="fade-down" data-aos-delay="100" class="col-6 d- parra">
+        <p class="text_alineacion">
+          La leyenda remonta a hechos del período Heian que se popularizaron durante la época Edo. La leyenda dice que
+          hace mucho tiempo había una preciosa pero vanidosa mujer que fue la esposa o la concubina de un samurái.
+        </p>
+
+        <p class="text_alineacion">
+          La bellísima mujer era pretendida por muchos hombres y acostumbraba a engañar a su marido. El samurái sabía de
+          las infidelidades de su esposa o concubina, por lo que un día, en un ataque de celos y furia, le cortó la boca
+          de un lado a otro mientras gritaba: ¿Piensas que eres hermosa?. Otras versiones cuentan que ella se había
+          casado con un samurái muy celoso que la golpeaba mucho.
+        </p>
+
+        <p class="text_alineacion">
+          El samurái, un día, pensando que le estaba engañando, le cortó la boca. La mujer, cansada de los maltratos,
+          huye adentrándose en el bosque y nunca más se supo de ella.
+        </p>
+
+      </div>
+    </div>
+    <!-- Final Okami -->
+
+    <!--  Integrantes seccion  -->
+
+    <h2 id="integrantes" class="text-center p-3 TitulosC" data-aos="fade-down" data-aos-delay="100">
+      INTEGRANTES
+    </h2>
+    <div class="flex-wrap d-flex align-items-center justify-content-center container-sections p-4">
+      <div class="code">
+        <div class="card" data-aos="fade-down" data-aos-delay="100">
+          <div class="face front">
+            <img src="./Imagenes/carechiste.png" alt="" />
+            <h3>Cristian Sanchez</h3>
+          </div>
+          <div class="face back position-absolute">
+            <h3>Descripción</h3>
+            <p>
+              "El odio es un lugar donde va un hombre que no puede soportar la tristeza"
+            </p>
+            <div class="link">
+              <a href="#">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card style-div" data-aos="fade-down" data-aos-delay="100">
+          <div class="face front">
+            <img src="./Imagenes/Echeverry.png" alt="" />
+            <h3>Camilo Echeverry</h3>
+          </div>
+          <div class="face back position-absolute">
+            <h3>Descripción</h3>
+            <p>
+              "Todo el mundo ve lo que aparentas ser, pocos experimentan lo que realmente eres"
+            </p>
+            <div class="link">
+              <a href="#">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down" data-aos-delay="100">
+          <div class="face front">
+            <img src="./Imagenes/García.png" alt="" />
+            <h3>Santiago Garcia</h3>
+          </div>
+          <div class="face back position-absolute">
+            <h3>Descripción</h3>
+            <p>
+              "Una vida sin retos no es vida"
+            </p>
+            <div class="link">
+              <a href="#">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down" data-aos-delay="100">
+          <div class="face front">
+            <img src="./Imagenes/Julian.png" alt="" />
+            <h3>Julian Giraldo</h3>
+          </div>
+          <div class="face back position-absolute">
+            <h3>Descripción</h3>
+            <p>
+              "No hay como tal un cielo, no hay como tal un infierno, no hay como tal un sentido en nuestras vidas, no
+              hay vida"
+            </p>
+            <div class="link">
+              <a href="#">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down" data-aos-delay="100">
+          <div class="face front">
+            <img src="./Imagenes/loaiza.png" alt="" />
+            <h3>Santiago Loaiza</h3>
+          </div>
+          <div class="face back position-absolute">
+            <h3>Descripción</h3>
+            <p>
+              Mi vida es una mentira sin final, una que ha llegado en un punto de no retorno, una que aflije mi
+              existencia
+            </p>
+            <div class="link">
+              <a href="#">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down" data-aos-delay="100">
+          <div class="face front">
+            <img src="./Imagenes/Quintero.png" alt="" />
+            <h3>Santiago Quintero</h3>
+          </div>
+          <div class="face back position-absolute">
+            <h3>Descripción</h3>
+            <p>
+              Hace falta una vida para aprender a vivir
+            </p>
+            <div class="link">
+              <a href="#">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down" data-aos-delay="100">
+          <div class="face front">
+            <img src="./Imagenes/Susana.png" alt="" />
+            <h3>Susana Marin</h3>
+          </div>
+          <div class="face back position-absolute">
+            <h3>Descripción</h3>
+            <p>
+              "Voy a ir a matar niños"
+            </p>
+            <div class="link">
+              <a href="#">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down" data-aos-delay="100">
+          <div class="face front">
+            <img src="./Imagenes/Juliana.png" alt="" />
+            <h3>Juliana Barroso</h3>
+          </div>
+          <div class="face back position-absolute">
+            <h3>Descripción</h3>
+            <p>
+              "Yo tengo el poder de hacer mis sueños realidad"
+            </p>
+            <div class="link">
+              <a href="#">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-down" data-aos-delay="100">
+          <div class="face front">
+            <img src="./Imagenes/Gemider.png" alt="" />
+            <h3>Gemider Acevedo</h3>
+          </div>
+          <div class="face back position-absolute">
+            <h3>Descripción</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
+              harum molestiae iste, nihil doloribus fugiat distinctio ducimus
+              maxime totam nulla fuga odio non aperiam eos?
+            </p>
+            <div class="link">
+              <a href="#">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin de integrantes -->
+
+    <!-- Contacto -->
+    <h2 id="contacto" class="text-center p-3 TitulosC">CONTACTO</h2>
+    <div class="container text-light bg-dark rounded-3 style-div2" style="width: 400px">
+      <h2 class="text-center p-4 ContactC">Envíanos un mensaje</h2>
+
+      <div class="card-header text-center">
+        <img width="50%" src="#" alt="" />
+      </div>
+
+      <form data-aos="fade-down" data-aos-delay="100" class="p-4 rounded-3">
+        <div class="mb-3 d-grid">
+          <label class="tp-style-text TextContact" for="text">Nombre</label>
+          <input class="form-control rounded-3" type="text" name="" id="name" required="" />
+        </div>
+
+        <div class="mb-3 d-grid">
+          <label for="email" class="form-label tp-style-text TextContact">Correo Electrónico</label>
+          <input type="email" class="form-control rounded-3" id="email" aria-describedby="Email Casilla" />
+          <div class="form-text text-white tp-style-text TextContact">
+            Ingresa tu correo electrónico.
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label tp-style-text TextContact">Escribe tu
+            mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-outline-light me-2 tp-style-nav TextContact">
+            Enviar
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- Fin Contacto -->
+
+    <footer class="d-flex align-items-center justify-content-center py-0 my-0">
+      <div class="servicios text-center col m-5">
+        <h5 class="TitulosC">Navegación</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 border-bottom">
+            <a href="#inicio" class="nav-link p-0 hovt text-dark TextContact">Inicio</a>
+          </li>
+          <li class="nav-item mb-2 border-bottom">
+            <a href="#submarcas" class="nav-link p-0 hovt text-dark TextContact">Submarcas</a>
+          </li>
+          <li class="nav-item mb-2 border-bottom">
+            <a href="#integrantes" class="nav-link p-0 hovt text-dark TextContact">Integrantes</a>
+          </li>
+          <li class="nav-item mb-2 border-bottom">
+            <a href="#contacto" class="nav-link p-0 hovt text-dark TextContact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="servicios text-center col m-5">
+        <h5 class="TitulosC">Historia y Cómics</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 border-bottom ">
+            <a href="https://susanamarin2004.github.io/" class="nav-link p-0 hovt text-dark TextContact">Versiones</a>
+          </li>
+          <li class="nav-item mb-2 border-bottom">
+            <a href="#" class="nav-link p-0 hovt text-dark TextContact">Okami v1</a>
+          </li>
+          <li class="nav-item mb-2 border-bottom">
+            <a href="#" class="nav-link p-0 hovt text-dark TextContact">Eleutheria</a>
+          </li>
+          <li class="nav-item mb-2 border-bottom">
+            <a href="https://kuchisake-onna.000webhostapp.com/" class="nav-link p-0 hovt text-dark TextContact">Okami
+              v2</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="redes col m-5 d-grid text-center alaign-items-center">
+        <h5 class="TitulosC">Redes Sociales</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a class="icon-facebook-official" href="https://www.facebook.com/profile.php?id=100088142080738"></a>
+          </li>
+          <li class="nav-item mb-2">
+            <a class="icon-instagram-1" href="https://www.instagram.com/anatema22/"></a>
+          </li>
+          <li class="nav-item mb-2">
+            <a class="icon-youtube-play" href="https://www.youtube.com/@anatema310"></a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="https://www.tiktok.com/@anatema22?lang=es">
+              <svg class="tiktok" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 135">
+                <defs></defs>
+                <g id="Capa_2" data-name="Capa 2">
+                  <g id="Graphic_Elements" data-name="Graphic Elements">
+                    <circle class="cls-1" cx="67.5" cy="67.5" r="67.5" />
+                    <path class="cls-2"
+                      d="M105.32,45.19c0-.39,0-.4-.42-.4a18.15,18.15,0,0,1-2.94-.26C98.43,44,87,38,85,28.16a30,30,0,0,1-.47-3.67c0-.46,0-.46-.46-.47H70.34c-.9,0-.77-.11-.77.79q0,29.16,0,58.33a12,12,0,0,1-.15,2.16,12.64,12.64,0,0,1-15,10.31,18,18,0,0,1-3-1,2.39,2.39,0,0,0-.23-.22c-.33-.27-.68-.49-1-.74-4.15-2.87-6.12-6.86-5.52-11.85S48.19,73.34,53,71.57a11.13,11.13,0,0,1,4.47-.67,13.24,13.24,0,0,1,2.92.45c.33.09.51,0,.52-.37,0-.13,0-.25,0-.37,0-3.49-.13-11.12-.14-11.13,0-1,0-2,0-3,0-.29-.14-.34-.38-.36A28.25,28.25,0,0,0,55,56a27.71,27.71,0,0,0-7.31,1.55,27.41,27.41,0,0,0-18.1,24,26.58,26.58,0,0,0,.05,4.28,27,27,0,0,0,1.16,5.79A27.32,27.32,0,0,0,40.08,105a6.31,6.31,0,0,0,1.42,1h0l.69.61a14.93,14.93,0,0,0,2.29,1.4,27.46,27.46,0,0,0,15.76,2.79A27.69,27.69,0,0,0,84.73,83.26c.06-9.68,0-19.36,0-29.05,0-.23-.13-.56.12-.67s.4.17.59.3a35.92,35.92,0,0,0,11.7,5,32.63,32.63,0,0,0,7.44.89c.79,0,.9,0,.9-.83C105.5,55.51,105.32,46.11,105.32,45.19Z" />
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <!-- No tocar -->
+  <!-- script de bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="./JavaScript/search.js"></script>
+</body>
+
+</html>
